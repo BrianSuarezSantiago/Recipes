@@ -2,7 +2,11 @@
     <img align="right" src="https://img.shields.io/badge/GitHub%20Pages-black.svg?logo=github&logoColor=white" alt="GitHub Pages">
 </a>
 
-<a href="https://developer.mozilla.org/es/docs/Web/HTML">
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img align="right" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white" alt="CSS">
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
     <img align="right" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white" alt="HTML">
 </a>
 
@@ -18,7 +22,7 @@
 
 ## 🚧 Notice!
 
-Simple recipe website that includes three links to different recipes. The website lacks style and functionality.
+Simple recipe website that includes three links to different recipes.
 
 
 ## 🚀 Deployment
