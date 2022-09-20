@@ -1,0 +1,83 @@
+html {
+    background-color: black;
+    font-family: system-ui;
+}
+
+#title {
+    text-align: center;
+    font-family: system-ui;
+    color: transparent;
+    font-size: 148px;
+    font-weight: 600px;    /*Font thickness*/
+    letter-spacing: -0.015em;    /*The letters are joined together*/
+    background-image: linear-gradient(
+        180deg,
+        #ffe993,
+        #eb831c);
+    background-clip: text;    /*The background expands into the text*/
+    -webkit-background-clip: text;    /*Added support for chrome and safari*/
+}
+
+#home {
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#search-engine {
+    border: 1px red solid;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+#recipes-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(
+        180deg,
+        #93ffb5,
+        #d3eb1c
+    );
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.recipe-link {
+    font-family: system-ui;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+    font-size: 17px;
+}

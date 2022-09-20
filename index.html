@@ -4,19 +4,63 @@
         <meta charset="UTF-8"/>
         <title>Recipes ~ Food Inspiration</title>
         <link rel="title icon" href="./assets/icons/Recipes.png">
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     </head>
 
     <body>
-        <h1>Recipes 👨🏻‍🍳</h1>
 
-        <a href="./my-recipes/cheffy-garlic-butter-steak.html">1️⃣ Cheffy Garlic Butter Steak</a>
+        <header>
+            <h1 id="title"><span class="title-banner"></span></h1>
+            <button type="button" id="home">Home 🏠</button>
+        </header>
 
-        <br>
+        <script>
+            let homeButton = document.getElementById("home");
+            homeButton.addEventListener("click", () => {
+                location.reload();
+            })
+        </script>
 
-        <a href="./my-recipes/espresso-cheesecake.html">2️⃣ Espresso Cheesecake</a>
+        <script>
+            var typed = new Typed('.title-banner', {
+                strings: ["Recipes", "Food Inspiration", "Simply Recipes"],
+                typeSpeed: 150,
+                backspeed: 150,
+                loop: true
+            });
+        </script>
 
-        <br>
+        <form>
+            <input id="search-engine" type="text" placeholder="Find a recipe 🔎"/>
+        </form>
 
-        <a href="./my-recipes/salmon.html">3️⃣ Salmon</a>
+        <section id="recipes-section">
+            <div class="recipe">
+                <label class="card" for="recipe-link1">
+                    <img src="./assets/images/Cheffy Garlic Butter Steak 4.jpg"></img>
+                </label>
+                <a class="recipe-link" href="./my-recipes/cheffy-garlic-butter-steak.html">Cheffy Garlic Butter Steak</a>
+            </div>
+    
+            <div class="recipe">
+                <label class="card" for="recipe-link2">
+                    <img src="./assets/images/Espresso Cheesecake 3.jpg"></img>
+                </label>
+                <a class="recipe-link" href="./my-recipes/espresso-cheesecake.html">Espresso Cheesecake</a>
+            </div>
+    
+            <div class="recipe">
+                <label class="card" for="recipe-link3">
+                    <img src="./assets/images/Salmon 3.jpg"></img>
+                </label>
+                <a class="recipe-link" href="./my-recipes/salmon.html">Salmon</a>
+            </div>    
+        </section>
+
+        <footer id="footer">
+            <p>Made with ❤️,  &#60;&#47;&#62;, &  various tech in Lithuania</p>
+            <p>© Brian Suárez 2022</p>
+        </footer>
     </body>
 </html>
